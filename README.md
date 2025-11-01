@@ -74,11 +74,13 @@ sudo yum install wireshark tshark
 ```
 
 # Clone the repository
+```
 git clone https://github.com/your-username/pcap-analysis-toolkit.git
 cd pcap-analysis-toolkit
 
 # Make scripts executable
 chmod +x analyze_pcap.sh quick_pcap_analysis.sh
+```
 
 <a name="-usage"></a>
 # Usage
