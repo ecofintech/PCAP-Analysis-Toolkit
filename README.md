@@ -280,11 +280,11 @@ tshark -r capture.pcap -Y "tcp.analysis.retransmission"
 # Analyze connection establishment time
 tshark -r capture.pcap -Y "tcp.flags.syn==1" -T fields -e frame.time_relative
 
-🤝 Contributing
+# Contributing
 
 We welcome contributions! Please feel free to submit pull requests, report bugs, or suggest new features.
 Development Setup
-bash
+```
 
 # Fork and clone the repository
 git clone https://github.com/your-username/pcap-analysis-toolkit.git
@@ -296,6 +296,7 @@ git checkout -b feature/new-analysis-module
 ./analyze_pcap.sh test_capture.pcap
 
 # Submit pull request
+```
 
 Guidelines
 
@@ -307,10 +308,11 @@ Guidelines
 
     Update documentation accordingly
 
-📝 License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-🙏 Acknowledgments
+
+# Acknowledgments
 
     Wireshark Team for the amazing tshark tool
 
@@ -318,7 +320,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
     Open Source Contributors who make tools like this possible
 
-📞 Support
+# Support
 
 For support and questions:
 
@@ -328,12 +330,6 @@ For support and questions:
 
     Review existing Discussions
 
-📊 Project Stats
-
-https://img.shields.io/github/last-commit/your-username/pcap-analysis-toolkit
-https://img.shields.io/github/issues/your-username/pcap-analysis-toolkit
-https://img.shields.io/github/issues-pr/your-username/pcap-analysis-toolkit
-<div align="center">
 
 Built with ❤️ for the security and networking community
 
